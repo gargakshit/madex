@@ -9,7 +9,7 @@ import Head from "next/head";
 import dynamic from "next/dynamic";
 import { useState } from "react";
 
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Common.module.css";
 
 // https://github.com/vercel/next.js/discussions/35773#discussioncomment-2840696.
 const PokemonTable = dynamic(() => import("@/components/pokemon/table"), {
